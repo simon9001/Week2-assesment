@@ -112,7 +112,7 @@
 
   
   .background img {
-    align-items: right;
+    position: absolute;
     top: 0;
     right: 10px;
     width: 60px;
@@ -123,6 +123,7 @@
   }
   
    .cardcontent {
+    position: relative; 
     background: hsl(235, 46%, 20%); 
     padding: 20px;
     border-radius: 15px;
