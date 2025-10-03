@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,6 @@
     padding: 20px;
   }
   
-  /* Main Container */
   .container {
     display: grid;
     grid-template-rows: auto;
@@ -26,7 +24,6 @@
     width: 100%;
   }
   
-  /* Profile Section */
   .item1 {
     border-radius: 15px;
     overflow: hidden; 
@@ -91,7 +88,6 @@
   .item6 { grid-column: 3 / span 1; grid-row: 2 / span 1; }
   .item7 { grid-column: 4 / span 1; grid-row: 2 / span 1; }
   
-  /* Activity Cards */
   .item2, .item3, .item4, .item5, .item6, .item7 {
     border-radius: 15px;
     overflow: hidden;
@@ -157,7 +153,6 @@
     margin-top: 5px;
   }
   
-  /*  the cards background Card Colors */
   .item2 .background { background-color: hsl(15, 100%, 70%); }
   .item3 .background { background-color: hsl(195, 74%, 62%); }
   .item4 .background { background-color: hsl(348, 100%, 68%); }
