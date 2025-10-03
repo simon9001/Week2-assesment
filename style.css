@@ -25,16 +25,18 @@
   }
   
   .item1 {
-    border-radius: 15px;
+    /* border-radius: 15px; */
     overflow: hidden; 
     display: flex;
     flex-direction: column;
   }
   
   .profile-section {
+    position: relative;
+    margin-bottom:-20px ;
     background: hsl(246, 80%, 60%);
     padding: 40px;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 15px 15px; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,7 +62,7 @@
   .timeframe-buttons {
     background: hsl(235, 46%, 20%);
     padding: 20px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px 15px 15px 15px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -68,6 +70,7 @@
   
   .timeframe-button {
     background: none;
+    padding-top: 10px;
     border: none;
     color: hsl(236, 100%, 87%);
     font-size: 14px;
@@ -89,34 +92,38 @@
   .item7 { grid-column: 4 / span 1; grid-row: 2 / span 1; }
   
   .item2, .item3, .item4, .item5, .item6, .item7 {
-    border-radius: 15px;
+    /* border-radius: 15px; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
   
   .background {
-    position: relative;
+    /* position:block; */
+    display: flex;
+    justify-content: flex-end;
     height: 60px;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0px 0px;
     background-color: inherit; 
     overflow: hidden;
   }
   
   .background img {
-    position: absolute;
+    align-items: right;
+    position: relative;
     top: 0;
     right: 10px;
     width: 60px;
     height: auto;
     opacity: 0.6; 
+    overflow: hidden;
     pointer-events: none;
   }
   
-  .cardcontent {
-    background: hsl(235, 46%, 20%);
-    border-radius: 15px;
+   .cardcontent {
+    background: hsl(235, 46%, 20%); 
     padding: 20px;
+    border-radius: 15px;
     margin-top: -20px;
     flex-grow: 1;
   }
